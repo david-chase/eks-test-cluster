@@ -13,7 +13,6 @@ metadata:
   name: php-apache
   namespace: testing
 spec:
-  # Create lots of replicas so we can observe the PDB in action
   replicas: 1
   selector:
     matchLabels:

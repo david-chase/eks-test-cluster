@@ -1,0 +1,8 @@
+# kubectl create -k .
+
+resources:
+- pv.yaml
+- storageclass.yaml
+- claim.yaml
+- pod1.yml
+- pod2.yml
